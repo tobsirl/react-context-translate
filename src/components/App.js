@@ -11,7 +11,6 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state.language);
     return (
       <div className="ui container">
         <div>
