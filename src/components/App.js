@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import UserCreate from './UserCreate';
 
 class App extends Component {
   state = {
@@ -25,6 +26,7 @@ class App extends Component {
           />
         </div>
         {this.state.language}
+        <UserCreate />
       </div>
     );
   }
